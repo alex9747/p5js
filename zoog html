@@ -1,0 +1,59 @@
+<head>
+    <title>p5js Template</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <script>
+      function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(400);
+  //legs
+  fill(239,198,160)
+  stroke(254,218,165)
+rect(200,280,40,150)
+	rect(150,280,40,150)
+  //arms
+	fill(0,0,0)
+  line(100,200,100,50)
+  //head
+  fill(255,0,0)
+  ellipse(200,200,200,200)
+//white part of eye
+  fill(255,255,255)
+  ellipse(175,155,60,70)
+  ellipse(235,155,60,70)
+//black part of eye
+  fill(0,0,0)
+  ellipse(175,175,25,25)
+  ellipse(235,175,25,25)
+//mouth
+  fill(0,0,0)
+  ellipse(200,240,150,50);
+stroke(255,0,0)
+ //name
+  fill("black")
+  textSize(40)
+  text("M&M",200,50)
+//background
+  fill("black")
+  strokeWeight(5);
+}
+    </script>
+</head>
+
+<body>
+    <div id="code" class="container-fluid">
+        <script src="https://gist-it.appspot.com/github/alex9747/p5js/blob/master/Zoog.html?footer=0"></script>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(window).bind("load", function() {
+            $('#code').before($('#defaultCanvas0').remove());
+        });
+    </script>
+</body>
+
+
+</html>
