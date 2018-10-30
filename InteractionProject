@@ -1,4 +1,10 @@
-function setup() {
+<html>
+
+<head>
+    <title>p5js Template</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <script>
+      function setup() {
   createCanvas(700, 700);
 }
 
@@ -45,3 +51,21 @@ line(mouseX,mouseY,0,700);// then it goes to where the mouse is
      rect(mouseY,mouseY,150,150);
      rect(mouseY,mouseX,100,100);
    }
+    </script>
+</head>
+
+<body>
+    <div id="code" class="container-fluid">
+        <script src="https://gist-it.appspot.com/github/alex9747/p5js/blob/master/FILENAME.html?footer=0"></script>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(window).bind("load", function() {
+            $('#code').before($('#defaultCanvas0').remove());
+        });
+    </script>
+</body>
+
+
+</html>
