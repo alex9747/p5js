@@ -56,7 +56,7 @@ line(mouseX,mouseY,0,700);// then it goes to where the mouse is
 
 <body>
     <div id="code" class="container-fluid">
-        <script src="https://gist-it.appspot.com/github/alex9747/p5js/blob/master/FILENAME.html?footer=0"></script>
+        <script src="https://gist-it.appspot.com/github/alex9747/p5js/blob/master/InteractionProject.html?footer=0"></script>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
